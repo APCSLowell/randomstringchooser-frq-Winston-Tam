@@ -10,12 +10,13 @@ for (String singleWord : wordArray)
 words.add(singleWord);
 }
 }
-{
-public String getNext()
+
+public String getNext(){
 if (words.size() > 0)
 {
 return words.remove((int)(Math.random() * words.size()));
 }
 return "NONE";
 }
+  
 }
